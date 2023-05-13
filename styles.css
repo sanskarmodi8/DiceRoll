@@ -1,0 +1,157 @@
+body{
+  background-color: #393E46;
+  justify-content: center;
+  align-items: center;
+}
+
+#container{
+  margin: 2%;
+  display: grid;
+  grid-template-columns: 1fr 2fr  2fr 1fr;
+  grid-template-rows: 1fr 0.1fr 2fr 0.1fr;
+}
+
+#heading{
+  display: flex;
+  justify-content: center;
+  margin: 2.5%;
+  font-size: 15vh;
+  font-family: 'Lobster', cursive;
+  color: #4ECCA3;
+  text-shadow: 5px 3px #232931;
+  grid-column: 2/4;
+  grid-row: 1/2;
+}
+
+#player1div{
+  display: flex;
+  justify-content: center;
+  grid-column: 2/3;
+  grid-row: 3/4;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 30%;
+}
+
+#player2div{
+  display: flex;
+  justify-content: center;
+  grid-column: 3/4;
+  grid-row: 3/4;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 30%;
+}
+
+p {
+  font-size: 4vh;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+  text-decoration-line: underline;
+}
+
+img {
+  width: 70%;
+}
+
+#winnerDeclaration{
+  grid-row: 4/5;
+  grid-column: 2/4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#winnerDeclaration p {
+  font-weight: bold;
+  text-decoration-line: none;
+}
+
+
+@media screen and (max-width: 970px) {
+  #heading{
+    
+    margin: 2.5%;
+    font-size: 10vh;
+    
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #heading{
+    
+    margin: 2%;
+    font-size: 7vh;
+    
+  }
+  p {
+    font-size: 3vh;
+  }
+  
+}
+
+@media screen and (max-width: 680px) {
+  #heading{
+    
+    margin: 2%;
+    font-size: 6.5vh;
+    
+  }
+  p {
+    font-size: 2vh;
+  }
+  
+}
+
+@media screen and (max-width: 600px) {
+  #heading{
+    
+    margin: 2%;
+    font-size: 5.7vh;
+    
+  }
+  p {
+    font-size: 2.25vh;
+  }
+  
+}
+
+@media screen and (max-width: 490px) {
+  #heading{
+    
+    margin: 2%;
+    font-size: 5vh;
+    
+  }
+  p {
+    font-size: 1.8vh;
+  }
+  
+}
+
+@media screen and (max-width: 400px) {
+  #heading{
+    
+    margin: 2%;
+    font-size: 4vh;
+    
+  }
+  p {
+    font-size: 1.7vh;
+  }
+  
+}
+
+@media screen and (max-width: 350px) {
+  #heading{
+    
+    margin: 2%;
+    font-size: 3vh;
+    
+  }
+  p {
+    font-size: 1.5vh;
+  }
+  
+}
